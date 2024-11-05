@@ -91,6 +91,10 @@
 
 
 
+
+
+
+
 #  7
 # dict1 = {'a': 1, 'b': 3, 'c': 3}
 # dict2 = {'a': 2, 'b': 3, 'c': 4}
@@ -121,24 +125,24 @@
 
 
 # 9
-# n = int(input("-> "))
+n = int(input("-> "))
 
-# for i in range(1, n + 1):
-#     a = ""
-#     for j in range(1, i + 1):
-#         a += str(j)
-#     for j in range(i - 1, 0, -1):
-#         a += str(j)
-#     print(a) 
+for i in range(1, n + 1):
+    a = " " * (n - i)
+    for j in range(1, i + 1):
+        a += str(j)
+    for j in range(i - 1, 0, -1):
+        a += str(j)
+    print(a) 
 
 
-# for i in range(n - 1, 0, -1):
-#     a = ""
-#     for j in range(1, i + 1):
-#         a += str(j)
-#     for j in range(i - 1, 0, -1):
-#         a += str(j)
-#     print(a) 
+for i in range(n - 1, 0, -1):
+    a = " " * (n - i)
+    for j in range(1, i + 1):
+        a += str(j)
+    for j in range(i - 1, 0, -1):
+        a += str(j)
+    print(a) 
 
 
 
@@ -262,6 +266,13 @@
 #         f *= i
 #     return f
 
+
+
+
+
+
+
+
 # cnt2 = 0
 # cnts = a 
 
@@ -274,6 +285,3 @@
 #     print("Yes")
 # else:
 #     print("No")
-
-
-
